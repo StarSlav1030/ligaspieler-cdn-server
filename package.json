@@ -18,6 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^5.1.0",
     "sharp": "^0.34.5"
   }
 }
