@@ -1,0 +1,23 @@
+{
+  "name": "puzzle-project-images",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/StarSlav1030/puzzle-project-images#readme",
+  "bugs": {
+    "url": "https://github.com/StarSlav1030/puzzle-project-images/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/StarSlav1030/puzzle-project-images.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
