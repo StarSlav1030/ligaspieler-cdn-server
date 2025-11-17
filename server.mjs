@@ -3,6 +3,7 @@ import express from "express";
 import path from "path";
 import compression from "compression";
 import { fileURLToPath } from "url";
+import cors from "cors";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,6 +16,7 @@ app.use(compression());
 
 // Serve ONLY image files from root directory
 app.use(
+  cors({ origin: "*" }),
   express.static(__dirname, {
     extensions: ["png", "jpg", "jpeg", "webp", "avif", "gif", "svg"],
     maxAge: "7d",
