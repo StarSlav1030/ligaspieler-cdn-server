@@ -42,7 +42,7 @@ app.use((req, res, next) => {
 
   if (!isImage) return next();
 
-  const fallbackPath = path.join(__dirname, "categories", `temp${ext}`);
+  const fallbackPath = path.join(__dirname, "fallback", `temp${ext}`);
 
   if (fs.existsSync(fallbackPath)) {
     res.sendFile(fallbackPath);
