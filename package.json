@@ -1,14 +1,14 @@
 {
-  "name": "puzzle-project-images",
+  "name": "ligaspieler-cdn-server",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/StarSlav1030/puzzle-project-images#readme",
+  "homepage": "https://github.com/StarSlav1030/ligaspieler-cdn-server#readme",
   "bugs": {
-    "url": "https://github.com/StarSlav1030/puzzle-project-images/issues"
+    "url": "https://github.com/StarSlav1030/ligaspieler-cdn-server/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/StarSlav1030/puzzle-project-images.git"
+    "url": "git+https://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@github.com/StarSlav1030/ligaspieler-cdn-server.git"
   },
   "license": "ISC",
   "author": "",
